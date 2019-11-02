@@ -1,0 +1,24 @@
+{
+  "name": "download-all-npm-packages",
+  "version": "1.0.0",
+  "description": "Downloads all NPM packages",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinJWendt/download-all-npm-packages.git"
+  },
+  "keywords": [
+    "download",
+    "downloader",
+    "npm"
+  ],
+  "author": "MarvinJWendt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarvinJWendt/download-all-npm-packages/issues"
+  },
+  "homepage": "https://github.com/MarvinJWendt/download-all-npm-packages#readme"
+}

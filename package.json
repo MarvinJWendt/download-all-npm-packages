@@ -4,7 +4,12 @@
   "description": "Downloads all NPM packages",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node ./dist/index.js",
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "lint": "standard **/*.{ts,md,js} --fix"
   },
   "repository": {
     "type": "git",
